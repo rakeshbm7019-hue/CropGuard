@@ -1,0 +1,6 @@
+{
+  "name": "CropGuard",
+  "description": "Precision agriculture platform for crop disease diagnosis, integrated pest management, sprayer tank dosage calculation, live Mandi APMC rates, and localized farm weather insights.",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

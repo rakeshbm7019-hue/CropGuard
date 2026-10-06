@@ -1,0 +1,103 @@
+<svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="kgSunGrad" x1="100" y1="180" x2="160" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="kgSkyGrad" x1="200" y1="40" x2="200" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F0FDF4" />
+      <stop offset="100%" stop-color="#DCFCE7" />
+    </linearGradient>
+    <linearGradient id="kgRingGrad" x1="40" y1="40" x2="360" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="50%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="kgBioLeafGrad" x1="140" y1="60" x2="200" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="50%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="kgTechLeafGrad" x1="200" y1="60" x2="260" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#064E3B" />
+      <stop offset="50%" stop-color="#065F46" />
+      <stop offset="100%" stop-color="#022C22" />
+    </linearGradient>
+    <linearGradient id="kgFieldGrad1" x1="200" y1="230" x2="200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="kgFieldGrad2" x1="200" y1="250" x2="200" y2="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#064E3B" />
+    </linearGradient>
+    <linearGradient id="kgShieldGrad" x1="280" y1="160" x2="330" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#ECFDF5" />
+    </linearGradient>
+  </defs>
+
+  <!-- Circular Base -->
+  <circle cx="200" cy="200" r="150" fill="url(#kgSkyGrad)" stroke="url(#kgRingGrad)" stroke-width="12" />
+  <circle cx="200" cy="200" r="144" stroke="#047857" stroke-width="2" fill="none" opacity="0.4" />
+
+  <!-- Outer Foliage on Ring -->
+  <g>
+    <path d="M100 130 C75 100 85 65 120 70 C125 100 110 120 100 130 Z" fill="#10B981" stroke="#047857" stroke-width="3" />
+    <path d="M100 130 C105 105 115 85 120 70" stroke="#064E3B" stroke-width="2" stroke-linecap="round" fill="none" />
+    <path d="M80 160 C55 145 60 115 90 125 C95 145 88 155 80 160 Z" fill="#34D399" stroke="#047857" stroke-width="2.5" />
+    <path d="M65 190 C45 185 45 160 70 165 C75 180 70 188 65 190 Z" fill="#059669" stroke="#047857" stroke-width="2" />
+    <path d="M260 56 C300 70 335 105 348 145" stroke="#059669" stroke-width="5" stroke-linecap="round" fill="none" />
+    <circle cx="348" cy="145" r="7" fill="#10B981" stroke="#047857" stroke-width="2" />
+  </g>
+
+  <!-- Sun Rising in Background -->
+  <circle cx="140" cy="210" r="46" fill="url(#kgSunGrad)" opacity="0.95" />
+  <circle cx="140" cy="210" r="54" stroke="#FDE047" stroke-width="2" stroke-dasharray="4 6" opacity="0.6" fill="none" />
+
+  <!-- Rolling Crop Fields -->
+  <g>
+    <path d="M60 270 C110 230 180 235 240 260 C290 280 330 270 345 255 C345 285 320 330 260 345 C200 355 120 345 60 270 Z" fill="url(#kgFieldGrad1)" />
+    <path d="M75 300 C130 260 190 265 240 285 C290 305 325 295 335 285 C320 325 270 348 200 350 C140 350 95 330 75 300 Z" fill="url(#kgFieldGrad2)" />
+    <path d="M100 325 C150 285 220 290 290 320" stroke="#34D399" stroke-width="3.5" stroke-linecap="round" opacity="0.7" fill="none" />
+    <path d="M130 342 C170 310 220 312 270 335" stroke="#6EE7B7" stroke-width="2.5" stroke-linecap="round" opacity="0.5" fill="none" />
+  </g>
+
+  <!-- Split Leaf Emblem -->
+  <g>
+    <path d="M200 65 C130 130 130 240 200 295 C270 240 270 130 200 65 Z" fill="#022C22" opacity="0.25" />
+    <!-- Left Organic Half -->
+    <path d="M200 65 C135 130 135 240 200 295 L200 65 Z" fill="url(#kgBioLeafGrad)" stroke="#047857" stroke-width="3" />
+    <path d="M200 110 C175 125 160 145 155 170" stroke="#ECFDF5" stroke-width="3" stroke-linecap="round" fill="none" />
+    <path d="M200 160 C170 175 155 200 150 225" stroke="#ECFDF5" stroke-width="3" stroke-linecap="round" fill="none" />
+    <path d="M200 210 C175 225 165 245 160 265" stroke="#ECFDF5" stroke-width="2.5" stroke-linecap="round" fill="none" />
+    <circle cx="155" cy="170" r="3" fill="#FFFFFF" />
+    <circle cx="150" cy="225" r="3" fill="#FFFFFF" />
+
+    <!-- Right Tech Half -->
+    <path d="M200 65 C265 130 265 240 200 295 L200 65 Z" fill="url(#kgTechLeafGrad)" stroke="#047857" stroke-width="3" />
+    <path d="M200 100 H225 V125 H245" stroke="#34D399" stroke-width="3.5" stroke-linecap="round" fill="none" />
+    <circle cx="245" cy="125" r="5" fill="#6EE7B7" stroke="#064E3B" stroke-width="1.5" />
+    <path d="M200 145 H235 V175 H252" stroke="#34D399" stroke-width="3.5" stroke-linecap="round" fill="none" />
+    <circle cx="252" cy="175" r="5" fill="#6EE7B7" stroke="#064E3B" stroke-width="1.5" />
+    <path d="M200 190 H220 V220 H240" stroke="#34D399" stroke-width="3.5" stroke-linecap="round" fill="none" />
+    <circle cx="240" cy="220" r="5" fill="#6EE7B7" stroke="#064E3B" stroke-width="1.5" />
+    <path d="M200 235 H228 V255" stroke="#34D399" stroke-width="3" stroke-linecap="round" fill="none" />
+    <circle cx="228" cy="255" r="4.5" fill="#6EE7B7" stroke="#064E3B" stroke-width="1.5" />
+    <circle cx="215" cy="85" r="3.5" fill="#A7F3D0" />
+    <path d="M200 85 H215" stroke="#34D399" stroke-width="2.5" />
+
+    <!-- Central Stem Line -->
+    <path d="M200 60 L200 305" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <!-- Right Protection Shield -->
+  <g transform="translate(45, -15) scale(0.75)">
+    <path d="M285 175 C285 175 315 165 340 175 C340 210 320 240 285 255 C250 240 230 210 230 175 C255 165 285 175 285 175 Z" fill="url(#kgShieldGrad)" stroke="#047857" stroke-width="4" />
+    <path d="M285 235 V200" stroke="#047857" stroke-width="3.5" stroke-linecap="round" />
+    <path d="M285 210 C270 200 265 185 275 180 C285 185 285 200 285 210 Z" fill="#10B981" />
+    <path d="M285 210 C300 200 305 185 295 180 C285 185 285 200 285 210 Z" fill="#34D399" />
+    <path d="M285 200 C280 185 285 170 285 170 C285 170 290 185 285 200 Z" fill="#059669" />
+  </g>
+</svg>
