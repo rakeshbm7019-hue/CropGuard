@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CropGuard</string>
+    <string name="app_subtitle">Precision Crop Pathology &amp; Farmer Advisory</string>
+    <string name="nav_scan">Scan</string>
+    <string name="nav_radar">Radar</string>
+    <string name="nav_dosage">Dosage</string>
+    <string name="nav_markets">Markets</string>
+    <string name="nav_advisor">Advisor</string>
+    <string name="cd_app_logo">CropGuard Shield Emblem</string>
+    <string name="cd_language_selector">Select Regional Language</string>
+    <string name="cd_theme_toggle">Toggle Dark and Light Theme</string>
+    <string name="cd_farmer_profile">Farmer Profile and Registration</string>
+    <string name="cd_take_photo">Capture Leaf Photo with Camera</string>
+    <string name="cd_pick_photo">Select Leaf Photo from Gallery</string>
+    <string name="cd_voice_readout">Listen to Voice Readout</string>
+    <string name="error_invalid_phone">Please enter a valid 10-digit Indian mobile number starting with 6-9.</string>
+</resources>
